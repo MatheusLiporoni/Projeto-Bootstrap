@@ -1,0 +1,176 @@
+#first {
+  background-image: url(/images/home/01.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#navbar #container {
+  padding-top: 30px;
+}
+#navbar img {
+  width: 230px;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#section1 {
+  color: azure;
+  margin-top: 10%;
+}
+#section1 h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+#section1 a {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 70px;
+  align-items: center;
+  font-size: large;
+  padding: 5px;
+  border: 3px solid white;
+}
+@media (max-width: 480px) {
+  #section1 a {
+    font-size: medium;
+  }
+  #section1 h1 {
+    font-size: 30px;
+  }
+}
+
+#second {
+  background-image: url(/images/home/03.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#second #section2 {
+  color: azure;
+  padding-top: 250px;
+}
+#second #section2 h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+#second #section2 a {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 70px;
+  align-items: center;
+  font-size: large;
+  padding: 5px;
+  border: 3px solid white;
+}
+@media (max-width: 480px) {
+  #second #section2 {
+    padding-top: 100px;
+  }
+  #second #section2 h1 {
+    font-size: 30px;
+  }
+  #second #section2 a {
+    font-size: medium;
+  }
+}
+
+#three {
+  background-image: url(/images/home/02.gif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#three #section3 {
+  color: azure;
+  padding-top: 250px;
+}
+#three #section3 h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+#three #section3 a {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 70px;
+  align-items: center;
+  font-size: large;
+  padding: 5px;
+  border: 3px solid white;
+}
+@media (max-width: 480px) {
+  #three #section3 {
+    padding-top: 150px;
+  }
+  #three #section3 h1 {
+    font-size: 30px;
+  }
+  #three #section3 a {
+    font-size: medium;
+  }
+}
+
+#four {
+  background-image: url(/images/home/04.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#four #section4 {
+  color: azure;
+  padding-top: 250px;
+}
+#four #section4 h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+#four #section4 a {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 70px;
+  align-items: center;
+  font-size: large;
+  padding: 5px;
+  border: 3px solid white;
+}
+@media (max-width: 480px) {
+  #four #section4 {
+    padding-top: 100px;
+  }
+  #four #section4 h1 {
+    font-size: 30px;
+  }
+  #four #section4 a {
+    font-size: medium;
+  }
+}
+
+footer {
+  background-color: black;
+  height: auto;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  color: white;
+  text-decoration: none;
+}
+footer #row {
+  padding-top: 28px;
+  height: 15vh;
+}
+footer #one {
+  color: rgb(95, 97, 97);
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

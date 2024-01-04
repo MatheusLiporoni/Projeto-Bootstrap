@@ -1,0 +1,384 @@
+#first{
+    background-image: url(/images/falcon9/01.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+
+    
+}
+
+#navbar{
+
+    #container{
+        padding-top: 30px; 
+    }
+    img{
+        width: 230px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    }
+}
+
+#section1{
+    margin-top: 15%;
+    color: white;
+
+    h1{
+        font-size: 110px;
+        font-weight: 500;
+        
+    }
+    p{
+        font-size: 28px;
+        font-weight: 500;
+
+    }
+
+    @media(max-width:414px) {
+        h1{
+            font-size: 50px;
+            font-weight: 500;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        margin-top: 45%;
+        
+        
+    }
+}
+
+#section2{
+    height: 400px;
+    background-color: black;
+    color: white;
+    padding-top: 125px;
+
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 30px;
+    }
+
+
+    @media(max-width:800px){
+        h1{
+            font-size: 60px;
+        }
+        h2{
+            font-size: 30px;
+        }
+
+        height: 300px;
+        padding-top: 100px;
+
+        @media(max-width: 414px){
+            h1{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 15px;
+            }
+            padding-top: 50px;
+            height: 200px;
+        } 
+
+    }
+    
+}
+
+#section3{
+    background-image: url(/images/falcon9/02.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    #row{
+        height: 100vh;       
+        padding-left: 15%;
+
+        p{
+            font-size: 18px;
+            color: white;
+            line-height: 60px;
+            text-align: center;
+            font-weight: 600;
+         }
+    
+    
+    
+    
+        @media(max-width:850px){
+            padding-left: 8%;
+    
+           
+                p{
+                    font-size: 18px;
+                    line-height: 40px;
+                    text-align: center;
+                }
+    
+            
+            @media(max-width: 414px){
+                height: auto;
+                p{
+                    font-size: 12px;
+                    line-height:25px ;
+                    text-align: center;
+                }
+               
+            } 
+    
+        }
+    }
+    
+    
+}
+
+#section4{
+    padding: 0;
+    
+    height: auto;
+
+
+    .carousel1{
+        background-image: url(/images/falcon9/03.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel2{
+        background-image: url(/images/falcon9/04.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+    }
+    .carousel3{
+        background-image: url(/images/falcon9/05.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        
+    }
+    .carousel4{
+        background-image: url(/images/falcon9/06.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel5{
+        background-image: url(/images/falcon9/07.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+
+
+    
+    p{
+        color:white ;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    #carroseltext{
+        padding-top: 10%;
+        padding-left: 20%;
+   
+        p{
+            font-weight: 300;
+        }
+            
+        #table1{
+            width: 80%;
+
+            tr{
+                font-size: 18px;
+                font-weight: 300;
+                color: white;
+                border-bottom: 1px solid white;
+                
+            }
+
+            td{
+                padding: 15px;
+                
+                
+            }
+
+
+        }
+        @media(max-width:800px){
+           
+        
+            td{
+                padding: 2px;
+                font-size: 15px;
+                
+            }
+            
+
+            p{
+                font-size: 16px;
+            }
+
+
+            
+        }
+    
+            @media(max-width: 414px){
+                td{
+                   padding: 0;
+                    font-size: 13px;
+                    
+                }
+                
+    
+                p{
+                    font-size: 13px;
+                }
+               
+            } 
+    }
+}
+
+
+#section5{
+    background-image: url(/images/falcon9/08.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    padding-top: 15%;
+    padding-left: 13%;
+   
+        p{
+            font-weight: 300;
+            font-size: 18px;
+            color: white;
+        }
+            
+        #table1{
+            width: 75%;
+
+            tr{
+                font-size: 18px;
+                font-weight: 300;
+                color: white;
+                border-bottom: 1px solid white;
+            }
+            td{
+                padding: 15px;               
+            }
+        }
+
+        @media(max-width:814px){
+            height: auto;
+    
+            td{
+                padding: 2px;
+                font-size: 15px;    
+            }
+            
+
+            p{
+                font-size: 16px;
+            }
+
+
+            
+        }
+    
+        @media(max-width: 414px){
+            height: auto;
+            td{
+                padding: 2px;
+                font-size: 13px;
+                    
+            }
+                
+    
+            p{
+                font-size: 13px;
+                   
+            }
+               
+            } 
+
+}
+
+#section6{ 
+    height: 80vh;
+    background-color: black;
+    padding-top: 10%;
+    p{
+        font-size: 20px;
+        color: white;
+        width: 100%;
+        padding: 0;
+        a{
+            color: gray;
+            text-decoration: none;
+        }
+        
+    } 
+    #button{
+        display: flex;
+        justify-content: center;
+        width: 13%;
+        height: 70px;
+        align-items: center;
+        font-size: large;
+        padding: 5px;
+        border: 3px solid white;
+        
+    }
+    @media(max-width:814px){
+        padding-top: 25%;
+        #button{
+            font-size: larger;
+            width: 25%;
+        }
+    
+        
+    }
+    @media(max-width:480px){
+        padding-top: 25%;
+        #button{
+            font-size: medium;
+            width: 25%;
+        }
+      
+    }
+
+}
+
+footer{
+    background-color: black;
+    height: auto;
+    ul{
+        list-style:none ;       
+        a{
+            color: white;
+            text-decoration: none;      
+        }
+    }
+    #container{
+        padding-top: 28px;
+        height: 15vh;      
+    }
+    #one{
+        color: rgb(95, 97, 97);
+        margin-right: 10px;
+    }
+
+}

@@ -1,0 +1,312 @@
+#first {
+  background-image: url(/images/falcon9/01.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+#navbar #container {
+  padding-top: 30px;
+}
+#navbar img {
+  width: 230px;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#section1 {
+  margin-top: 15%;
+  color: white;
+}
+#section1 h1 {
+  font-size: 110px;
+  font-weight: 500;
+}
+#section1 p {
+  font-size: 28px;
+  font-weight: 500;
+}
+@media (max-width: 414px) {
+  #section1 {
+    margin-top: 45%;
+  }
+  #section1 h1 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  #section1 p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+#section2 {
+  height: 400px;
+  background-color: black;
+  color: white;
+  padding-top: 125px;
+}
+#section2 h1 {
+  font-size: 80px;
+}
+#section2 h2 {
+  font-size: 30px;
+}
+@media (max-width: 800px) {
+  #section2 {
+    height: 300px;
+    padding-top: 100px;
+  }
+  #section2 h1 {
+    font-size: 60px;
+  }
+  #section2 h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 800px) and (max-width: 414px) {
+  #section2 {
+    padding-top: 50px;
+    height: 200px;
+  }
+  #section2 h1 {
+    font-size: 30px;
+  }
+  #section2 h2 {
+    font-size: 15px;
+  }
+}
+
+#section3 {
+  background-image: url(/images/falcon9/02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#section3 #row {
+  height: 100vh;
+  padding-left: 15%;
+}
+#section3 #row p {
+  font-size: 18px;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+  font-weight: 600;
+}
+@media (max-width: 850px) {
+  #section3 #row {
+    padding-left: 8%;
+  }
+  #section3 #row p {
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+@media (max-width: 850px) and (max-width: 414px) {
+  #section3 #row {
+    height: auto;
+  }
+  #section3 #row p {
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+#section4 {
+  padding: 0;
+  height: auto;
+}
+#section4 .carousel1 {
+  background-image: url(/images/falcon9/03.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#section4 .carousel2 {
+  background-image: url(/images/falcon9/04.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#section4 .carousel3 {
+  background-image: url(/images/falcon9/05.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#section4 .carousel4 {
+  background-image: url(/images/falcon9/06.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#section4 .carousel5 {
+  background-image: url(/images/falcon9/07.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#section4 p {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+#section4 #carroseltext {
+  padding-top: 10%;
+  padding-left: 20%;
+}
+#section4 #carroseltext p {
+  font-weight: 300;
+}
+#section4 #carroseltext #table1 {
+  width: 80%;
+}
+#section4 #carroseltext #table1 tr {
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  border-bottom: 1px solid white;
+}
+#section4 #carroseltext #table1 td {
+  padding: 15px;
+}
+@media (max-width: 800px) {
+  #section4 #carroseltext td {
+    padding: 2px;
+    font-size: 15px;
+  }
+  #section4 #carroseltext p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 414px) {
+  #section4 #carroseltext td {
+    padding: 0;
+    font-size: 13px;
+  }
+  #section4 #carroseltext p {
+    font-size: 13px;
+  }
+}
+
+#section5 {
+  background-image: url(/images/falcon9/08.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 15%;
+  padding-left: 13%;
+}
+#section5 p {
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+#section5 #table1 {
+  width: 75%;
+}
+#section5 #table1 tr {
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  border-bottom: 1px solid white;
+}
+#section5 #table1 td {
+  padding: 15px;
+}
+@media (max-width: 814px) {
+  #section5 {
+    height: auto;
+  }
+  #section5 td {
+    padding: 2px;
+    font-size: 15px;
+  }
+  #section5 p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 414px) {
+  #section5 {
+    height: auto;
+  }
+  #section5 td {
+    padding: 2px;
+    font-size: 13px;
+  }
+  #section5 p {
+    font-size: 13px;
+  }
+}
+
+#section6 {
+  height: 80vh;
+  background-color: black;
+  padding-top: 10%;
+}
+#section6 p {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  padding: 0;
+}
+#section6 p a {
+  color: gray;
+  text-decoration: none;
+}
+#section6 #button {
+  display: flex;
+  justify-content: center;
+  width: 13%;
+  height: 70px;
+  align-items: center;
+  font-size: large;
+  padding: 5px;
+  border: 3px solid white;
+}
+@media (max-width: 814px) {
+  #section6 {
+    padding-top: 25%;
+  }
+  #section6 #button {
+    font-size: larger;
+    width: 25%;
+  }
+}
+@media (max-width: 480px) {
+  #section6 {
+    padding-top: 25%;
+  }
+  #section6 #button {
+    font-size: medium;
+    width: 25%;
+  }
+}
+
+footer {
+  background-color: black;
+  height: auto;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  color: white;
+  text-decoration: none;
+}
+footer #container {
+  padding-top: 28px;
+  height: 15vh;
+}
+footer #one {
+  color: rgb(95, 97, 97);
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=falcon9.css.map */
